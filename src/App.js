@@ -10,11 +10,11 @@ const App = () => {
 			<Navbar />
 
 			<Switch>
-				<Route path="/">
+				<Route path="/" exact>
 					<Home />
 				</Route>
 
-				<Route path="/search">
+				<Route path="/search" exact>
 					<Search />
 				</Route>
 			</Switch>
