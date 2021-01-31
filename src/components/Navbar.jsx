@@ -1,11 +1,16 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
+import logo from "../logo.svg";
 
 const Navbar = (props) => {
 	return (
 		<div className="navigation">
 			<nav class="navbar navbar-expand navbar-dark bg-dark">
 				<div class="container">
+					<Link class="navbar-brand" href="/">
+						<img src={logo} width="30" height="30" alt="" />
+					</Link>
+
 					<Link class="navbar-brand" to="/">
 						App-Name
 					</Link>
