@@ -5,7 +5,7 @@ const Home = (props) => {
 		<div className="home">
 			<div class="jumbotron">
 				<div class="container">
-					<h1 class="display-4">Welcome to App-Name</h1>
+					<h1 class="display-4">Welcome to Storefront</h1>
 					<p class="lead">The best place to find small businesses to support</p>
 					<hr class="my-4" />
 				</div>

@@ -12,7 +12,7 @@ const Navbar = (props) => {
 					</Link>
 
 					<Link class="navbar-brand" to="/">
-						App-Name
+						Storefront
 					</Link>
 
 					<ul class="navbar-nav ml-auto">
